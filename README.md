@@ -268,10 +268,18 @@ https://docs.microsoft.com/en-us/vsts/accounts/create-account-msa-or-work-studen
 https://about.gitlab.com  
 
 ### 5.	AUTO SCALE CONTAINERS 
-<<Naveen>> to add the description, links and solution file. 
+Service Fabric provides facility to auto-scale your services based on load which they report, or based on their usage of resources.
+Auto scaling gives great elasticity and enables provisioning of additional instances or partitions of your service on demand. The entire auto scaling process is automated and transparent, and once you set up your policies on a service there is no need for manual scaling operations at the service level. Auto scaling can be turned on either at service creation time, or at any time by updating the service.
+
+In this challenge, you have an Asp.Net core application, which has been containerized and kept at https://github.com/kagowda/India-Hackathon/tree/master/autoscalechallenge. It comprises of a simple REST api which returns current server time after doing a fraud check (kept intentionally to make the calls computational intensive). 
+
+During normal load the response time is ~300ms. However as the load or number of queries increase, the response time of the service also increases. To overcome this, we want to autoscale our service based on cpu load. Try to come up with the right policy and try it out on you local cluster first followed by deployment on Azure.
+
+To aid you in this challenge, we've shared a simple [script](https://github.com/kagowda/India-Hackathon/blob/master/autoscalechallenge/PingParallel.ps1) which can be run your web service to induce load.
 
 **Resources:**  
 https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-resource-manager-autoscaling  
+https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started-containers#configure-resource-governance
 
 ### 6.	USING SERVICE FABRIC RELIABLE COLLECTION 
 
