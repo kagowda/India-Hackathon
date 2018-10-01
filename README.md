@@ -267,13 +267,13 @@ https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-tutorial-de
 https://docs.microsoft.com/en-us/vsts/accounts/create-account-msa-or-work-student?view=vsts  
 https://about.gitlab.com  
 
-### 5.	AUTO SCALE EXISTING APPLICATION 
+### 5.	AUTO SCALE CONTAINERS 
 <<Naveen>> to add the description, links and solution file. 
 
 **Resources:**  
 https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-resource-manager-autoscaling  
 
-### 6.	SERVICE FABRIC RELIABLE COLLECTION 
+### 6.	USING SERVICE FABRIC RELIABLE COLLECTION 
 
 Service Fabric reliable collections enable you to write highly available, scalable, and low-latency cloud applications as though you were writing single computer applications. The classes in the Microsoft.ServiceFabric.Data.Collections namespace provide a set of collections that manage the replication and local state. Your reads are local while writes incur the minimum number of network IOs.
 
