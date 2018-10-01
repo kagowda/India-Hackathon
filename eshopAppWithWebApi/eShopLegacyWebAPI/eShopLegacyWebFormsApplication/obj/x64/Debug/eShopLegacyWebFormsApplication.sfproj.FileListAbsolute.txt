@@ -1,0 +1,1 @@
+C:\Users\kagowda\source\repos\India-Hackathon\eshopAppWithWebApi\eShopLegacyWebAPI\eShopLegacyWebFormsApplication\obj\x64\Debug\eShopLegacyWebFormsApplication.sfproj.CoreCompileInputs.cache

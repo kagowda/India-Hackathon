@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="CatalogDBContext-Web.config Connection String" description="CatalogDBContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=Microsoft.eShopOnContainers.Services.CatalogDb; Integrated Security=True; MultipleActiveResultSets=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kagowda\\source\\repos\\India-Hackathon\\eshopAppWithWebApi\\eShopLegacyWebAPI\\src\\eShopLegacyWebForms\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CatalogDBContext']/@connectionString" />
+  </parameter>
+</parameters>
