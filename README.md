@@ -63,7 +63,7 @@ We will provide an Azure subscription with credit, but please ensure you bring y
 ## Azure Subscription
 Azure Subscription – Azure pass code will be passed on to you to give you access to Azure resources for a month from activation. The subscription will give access to all Azure 1st party services which is what is needed for your challenges.  
 
-Redeem pass code by clicking this [link](https://www.microsoftazurepass.com/) and following process listed [here](https://www.microsoftazurepass.com/Home/HowTo.).
+Redeem pass code by clicking this [link](https://www.microsoftazurepass.com/) and following process listed [here](https://www.microsoftazurepass.com/Home/HowTo).
 ## Up and Running 
 Make sure you have finished and installed all the Pre-requisites. Make sure the following is running on your system
 1)	Docker is up and running – You will see docker icon in your task bar. Click on the icon and ensure the docker is up and running. 
