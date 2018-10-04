@@ -273,7 +273,7 @@ Auto scaling gives great elasticity and enables provisioning of additional insta
 
 In this challenge, you have an Asp.Net core application, which has been containerized and kept at https://github.com/kagowda/India-Hackathon/tree/master/autoscalechallenge. It comprises of a simple REST api which returns current server time after doing a fraud check (kept intentionally to make the calls computational intensive). 
 
-During normal load the response time is ~300ms. However as the load or number of queries increase, the response time of the service also increases. To overcome this, we want to autoscale our service based on cpu load. Try to come up with the right policy and try it out on you local cluster first followed by deployment on Azure.
+During normal load the response time is ~300ms. However as the load or number of queries increase, the response time of the service also increases. To overcome this, we want to autoscale our service based on  [logical load metrics](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-resource-manager-metrics), or with physical metric like CPU. Try to come up with the right policy and try it out on you local cluster followed by deployment on Azure cluster.
 
 To aid you in this challenge, we've shared a simple [script](https://github.com/kagowda/India-Hackathon/blob/master/autoscalechallenge/PingParallel.ps1) which can be run your web service to induce load.
 
