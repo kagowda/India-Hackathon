@@ -143,7 +143,7 @@ https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-application
 
 #### 1.6.	Add inter service communication with DNS
 
-From here on – Use the following application of eshopAppWithWepApi https://github.com/kagowda/India-Hackathon/tree/master/eshopAppWithWepApi .
+From here on – Use the following application of eshopAppWithWepApi https://github.com/kagowda/India-Hackathon/tree/master/eshopAppWithWebApi/eShopLegacyWebAPI
 
 Any complex application is going to have multiple services talking to each other and DNS is the natural medium to resolve another endpoint and connect to it (whatever may the transport protocol be). Service Fabric has an inbuilt DNS service which let’s you do service discovery inside the cluster without changing your legacy application code.  
 
